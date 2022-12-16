@@ -1,0 +1,272 @@
+﻿++Solution 'bookstoorprojcet222' ‎(4 of 4 projects)
+++Model
+i:{00000000-0000-0000-0000-000000000000}:Model
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:
+i:{0cc8af28-6bea-4277-b234-acd92f5bd1df}:
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++Properties
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\model\properties\
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\dill\properties\
+i:{0cc8af28-6bea-4277-b234-acd92f5bd1df}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\booksunittest\properties\
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\properties\
+++References
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:
+i:{0cc8af28-6bea-4277-b234-acd92f5bd1df}:
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++Enames
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\model\enames\
+++Book.cs
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\model\book.cs
+i:{bc646094-101b-477f-8d48-b6859efac269}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\data\modeles\book.cs
+++EdditionAndPrintDate.cs
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\model\edditionandprintdate.cs
+++Journal.cs
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\model\journal.cs
+++ProductBase.cs
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\model\productbase.cs
+++ProductItem.cs
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\model\productitem.cs
+++AssemblyInfo.cs
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\model\properties\assemblyinfo.cs
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\dill\properties\assemblyinfo.cs
+i:{0cc8af28-6bea-4277-b234-acd92f5bd1df}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\booksunittest\properties\assemblyinfo.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\properties\assemblyinfo.cs
+++Microsoft.CSharp
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++System
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:
+i:{0cc8af28-6bea-4277-b234-acd92f5bd1df}:
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++System.Core
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:
+i:{0cc8af28-6bea-4277-b234-acd92f5bd1df}:
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++System.Data
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++System.Data.DataSetExtensions
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++System.Net.Http
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++System.Xml
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++System.Xml.Linq
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++BookGenre.cs
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\model\enames\bookgenre.cs
+++JournalFrquequency.cs
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\model\enames\journalfrquequency.cs
+++JournalGenres.cs
+i:{a87bb7ef-d041-44d9-9aaf-81481c3d25af}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\model\enames\journalgenres.cs
+++Dill
+i:{00000000-0000-0000-0000-000000000000}:Dill
+i:{0cc8af28-6bea-4277-b234-acd92f5bd1df}:
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++DataService.cs
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\dill\dataservice.cs
+++BooksUnitTest
+i:{00000000-0000-0000-0000-000000000000}:BooksUnitTest
+++packages.config
+i:{0cc8af28-6bea-4277-b234-acd92f5bd1df}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\booksunittest\packages.config
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\packages.config
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\dill\packages.config
+++UnitTest1.cs
+i:{0cc8af28-6bea-4277-b234-acd92f5bd1df}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\booksunittest\unittest1.cs
+++Microsoft.VisualStudio.TestPlatform.TestFramework
+i:{0cc8af28-6bea-4277-b234-acd92f5bd1df}:
+++Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions
+i:{0cc8af28-6bea-4277-b234-acd92f5bd1df}:
+++bookstoorprojcet222
+i:{00000000-0000-0000-0000-000000000000}:bookstoorprojcet222
+++BuyerView
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\buyerview\
+++BuyBookView.xaml
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\buyerview\buybookview.xaml
+++BuyerViewModel
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\buyerviewmodel\
+++BuyBookVIewModel.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\buyerviewmodel\buybookviewmodel.cs
+++ViewModel
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viewmodel\
+++AddBookViewModel.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viewmodel\addbookviewmodel.cs
+++BuyerViweModel.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viewmodel\buyerviwemodel.cs
+++MainViewModel.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viewmodel\mainviewmodel.cs
+++ManagerAddBookViewModel.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viewmodel\manageraddbookviewmodel.cs
+++MangerReportViewModel.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viewmodel\mangerreportviewmodel.cs
+++MangerSearchAllViweModel.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viewmodel\mangersearchallviwemodel.cs
+++ManigerViweModel.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viewmodel\manigerviwemodel.cs
+++MinuViewModel.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viewmodel\minuviewmodel.cs
+++StartViweModel.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viewmodel\startviwemodel.cs
+++ViewModelLocator.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viewmodel\viewmodellocator.cs
+++Viwes
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\
+++AddBookView.xaml
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\addbookview.xaml
+++AddJounalView.xaml
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\addjounalview.xaml
+++BuyerViwes.xaml
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\buyerviwes.xaml
+++ManagerAddBookView.xaml
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\manageraddbookview.xaml
+++MangerMinuView.xaml
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\mangerminuview.xaml
+++MangerMinViwe.xaml
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\mangerminviwe.xaml
+++MangerReportView.xaml
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\mangerreportview.xaml
+++MangerSearchAllViwe.xaml
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\mangersearchallviwe.xaml
+++ManigerViwe.xaml
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\manigerviwe.xaml
+++StartViwe.xaml
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\startviwe.xaml
+++App.config
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\app.config
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\dill\app.config
+++App.xaml
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\app.xaml
+++MainWindow.xaml
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\mainwindow.xaml
+++Resources.resx
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\properties\resources.resx
+++Settings.settings
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\properties\settings.settings
+++CommonServiceLocator
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++GalaSoft.MvvmLight
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++GalaSoft.MvvmLight.Extras
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++GalaSoft.MvvmLight.Platform
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++Microsoft.Dynamic
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++Microsoft.Office.Interop.Outlook
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++Microsoft.Scripting
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++Microsoft.Scripting.Metadata
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++NuGet.Common
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++NuGet.Configuration
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++NuGet.Frameworks
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++PresentationCore
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++PresentationFramework
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++System.IO.Compression
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++System.Security
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++System.Web.Mobile
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++System.Windows.Interactivity
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++System.Xaml
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++WindowsBase
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:
+++BuyBookView.xaml.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\buyerview\buybookview.xaml.cs
+++AddBookView.xaml.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\addbookview.xaml.cs
+++AddJounalView.xaml.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\addjounalview.xaml.cs
+++BuyerViwes.xaml.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\buyerviwes.xaml.cs
+++ManagerAddBookView.xaml.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\manageraddbookview.xaml.cs
+++MangerMinuView.xaml.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\mangerminuview.xaml.cs
+++MangerMinViwe.xaml.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\mangerminviwe.xaml.cs
+++MangerReportView.xaml.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\mangerreportview.xaml.cs
+++MangerSearchAllViwe.xaml.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\mangersearchallviwe.xaml.cs
+++ManigerViwe.xaml.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\manigerviwe.xaml.cs
+++StartViwe.xaml.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\viwes\startviwe.xaml.cs
+++App.xaml.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\app.xaml.cs
+++MainWindow.xaml.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\mainwindow.xaml.cs
+++Resources.Designer.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\properties\resources.designer.cs
+++Settings.Designer.cs
+i:{2a95ac33-7250-4b90-9989-f53155debd36}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\bookstoorprojcet222\properties\settings.designer.cs
+++BookStorDbContext.cs
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\dill\bookstordbcontext.cs
+i:{bc646094-101b-477f-8d48-b6859efac269}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\data\bookstordbcontext.cs
+++EntityFramework
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:
+++EntityFramework.SqlServer
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:
+++System.ComponentModel.DataAnnotations
+i:{375c7004-9aaa-4398-9578-44c352c902d4}:
+++Solution 'bookstoorprojcet222' ‎(5 of 5 projects)
+i:{00000000-0000-0000-0000-000000000000}:bookstoorprojcet222.sln
+++Data
+i:{00000000-0000-0000-0000-000000000000}:Data
+++Dependencies
+i:{bc646094-101b-477f-8d48-b6859efac269}:>10
+++Class1.cs
+++Analyzers
+i:{bc646094-101b-477f-8d48-b6859efac269}:analyzers
+++C:\Program Files\dotnet\sdk\6.0.203\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.203\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.NetAnalyzers.dll
+++Frameworks
+i:{bc646094-101b-477f-8d48-b6859efac269}:frameworks
+++Microsoft.NETCore.App
+i:{bc646094-101b-477f-8d48-b6859efac269}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\data\microsoft.netcore.app
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{bc646094-101b-477f-8d48-b6859efac269}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{bc646094-101b-477f-8d48-b6859efac269}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{bc646094-101b-477f-8d48-b6859efac269}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Packages
+i:{bc646094-101b-477f-8d48-b6859efac269}:packages
+++Microsoft.EntityFrameworkCore (6.0.7)
+i:{bc646094-101b-477f-8d48-b6859efac269}:>61
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{bc646094-101b-477f-8d48-b6859efac269}:c:\users\eldad\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.7\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{bc646094-101b-477f-8d48-b6859efac269}:c:\users\eldad\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.7)
+i:{bc646094-101b-477f-8d48-b6859efac269}:>64
+++Microsoft.EntityFrameworkCore.Proxies (6.0.7)
+i:{bc646094-101b-477f-8d48-b6859efac269}:>65
+++Microsoft.EntityFrameworkCore.Tools (6.0.7)
+i:{bc646094-101b-477f-8d48-b6859efac269}:>66
+++NewFolder
+++Modeles
+i:{bc646094-101b-477f-8d48-b6859efac269}:c:\users\eldad\onedrive\desktop\sela1050 ראשי\ooc\bookstoorprojcet222\data\modeles\

@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="bookstoorprojcet222.Viwes.MangerMinuView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+              DataContext="{Binding Source={StaticResource Locator}, Path=MinManiger}">
+    <ListView Background="LightSteelBlue">
+        <Button Content="Add" Command="{Binding  MyAddBook}"/>
+        <Button Content="See all And Remove item" Command="{Binding MySerchAll}"/>
+        <Button Content="Report" Command="{Binding MyReport}"/>
+        <Button Command="{Binding MyBack}" Content="Go Back"/>
+    </ListView>
+   
+</UserControl>

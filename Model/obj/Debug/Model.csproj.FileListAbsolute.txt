@@ -1,0 +1,6 @@
+C:\Users\eldad\OneDrive\Desktop\sela1050 ראשי\OOC\bookstoorprojcet222\Model\bin\Debug\Model.dll
+C:\Users\eldad\OneDrive\Desktop\sela1050 ראשי\OOC\bookstoorprojcet222\Model\bin\Debug\Model.pdb
+C:\Users\eldad\OneDrive\Desktop\sela1050 ראשי\OOC\bookstoorprojcet222\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\eldad\OneDrive\Desktop\sela1050 ראשי\OOC\bookstoorprojcet222\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\eldad\OneDrive\Desktop\sela1050 ראשי\OOC\bookstoorprojcet222\Model\obj\Debug\Model.dll
+C:\Users\eldad\OneDrive\Desktop\sela1050 ראשי\OOC\bookstoorprojcet222\Model\obj\Debug\Model.pdb

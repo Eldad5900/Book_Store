@@ -1,0 +1,88 @@
+﻿<UserControl x:Class="bookstoorprojcet222.Viwes.MangerSearchAllViwe"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:bookstoorprojcet222.Viwes"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+              DataContext="{Binding Source={StaticResource Locator}, Path=MinManigerSearchAll}">
+    <Grid Background="LightSteelBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="300"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Back" Command="{Binding MyBack}" Grid.Column="0" Grid.Row="3" Width="30" Height="30" />
+        <TextBlock Text="Book" FontSize="50"></TextBlock>
+        <TextBlock Text="Jounal" Grid.Column="1"  FontSize="50"></TextBlock>
+        <TextBlock Text="Details about a book" Grid.Column="3"  FontSize="20"></TextBlock>
+        <TextBlock Text="Details about a Jounal" Grid.Column="5"  FontSize="20"></TextBlock>
+        <ListView Background="LightSteelBlue" x:Name="Blistview" Grid.Row="1" ItemsSource="{Binding AllBookStors, Mode=TwoWay}" SelectedItem="{Binding MyBook, Mode=TwoWay}" DisplayMemberPath="Name"/>
+        <ListView Background="LightSteelBlue" x:Name="Jlistview" Grid.Row="1" Grid.Column="1" ItemsSource="{Binding AllJournalss,Mode=TwoWay}" SelectedItem="{Binding MyJounal, Mode=TwoWay}" DisplayMemberPath="Name"/>
+        <ListView Background="LightSteelBlue" Grid.Row="1" Grid.Column="2">
+            <TextBlock Text="Name Book :"/>
+            <TextBlock Text="Author Names :"/>
+            <TextBlock Text="Number Of Copie :"/>
+            <TextBlock Text="Id :"/>
+            <TextBlock Text="Summery :"/>
+            <TextBlock Text="Public Data :"/>
+            <TextBlock Text="Gener :"/>
+            <TextBlock Text="Eddition on stor :"/>
+            <TextBlock Text="Cost Of Book :"/>
+            <TextBlock Text="Special Price :"/>
+            <TextBlock Text="%"/>
+        </ListView>
+        <ListView Background="LightSteelBlue" Grid.Row="1" Grid.Column="4">
+            <TextBlock Text="Name Book :"/>
+            <TextBlock Text="Author Names :"/>
+            <TextBlock Text="Number Of Copie :"/>
+            <TextBlock Text="Id :"/>
+            <TextBlock Text="Frequency :"/>
+            <TextBlock Text="Gener :"/>
+            <TextBlock Text="Eddition on stor :"/>
+            <TextBlock Text="Cost Of Book :"/>
+            <TextBlock Text="Special Price :"/>
+            <TextBlock Text="%"/>
+        </ListView>
+        <ListView Background="LightSteelBlue" Grid.Row="1" Grid.Column="3">
+            <TextBlock Text="{Binding MyBook.Name}"/>
+            <TextBlock Text="{Binding MyBook.AuthorNames}"/>
+            <TextBlock Text="{Binding MyBook.AmountOfCopies}"/>
+            <TextBlock Text="{Binding MyBook.Id}"/>
+            <TextBlock Text="{Binding MyBook.Summery}"/>
+            <TextBlock Text="{Binding MyBook.PrintData}"/>
+            <TextBlock Text="{Binding MyBook.BookGener}"/>
+            <TextBlock Text="{Binding MyBook.Eddition}"/>
+            <TextBlock Text="{Binding MyBook.Pric,StringFormat=c}"/>
+            <TextBlock Text="{Binding MyBook.Specials,StringFormat=c}"/>
+            <ComboBox ItemsSource="{Binding Specials}" SelectedItem="{Binding SpecialPrice}"/>
+            <Button Content="Add Special" Command="{Binding AddSpecialBook}"/>
+        </ListView>
+        <ListView Background="LightSteelBlue" Grid.Row="1" Grid.Column="5">
+            <TextBlock Text="{Binding MyJounal.Name}"/>
+            <TextBlock Text="{Binding MyJounal.AuthorNames}"/>
+            <TextBlock Text="{Binding MyJounal.AmountOfCopies}"/>
+            <TextBlock Text="{Binding MyJounal.Id}"/>
+            <TextBlock Text="{Binding MyJounal.Frequency}"/>
+            <TextBlock Text="{Binding MyJounal.LstJournalGenres}"/>
+            <TextBlock Text="{Binding MyJounal.Eddition}"/>
+            <TextBlock Text="{Binding MyJounal.Pric,StringFormat=c}"/>
+            <TextBlock Text="{Binding MyJounal.Specials,StringFormat=c}"/>
+            <ComboBox ItemsSource="{Binding Specials}" SelectedItem="{Binding SpecialPrice}"/>
+            <Button Content="Add Special" Command="{Binding AddSpecialJournal}"/>
+        </ListView>
+        <Button Content="Delete Book" Grid.Row="2" Grid.Column="3" Command="{Binding DeleteBook}"/>
+        <Button Content="Delete Journal" Grid.Row="2" Grid.Column="5" Command="{Binding DeleteJoural}"/>
+        <TextBox Grid.Row="1" Grid.Column="3" Width="43" Height="32" HorizontalAlignment="Right" Text="{Binding SomeBook}" />
+        <TextBox Grid.Row="1" Grid.Column="5" Width="43" Height="32" HorizontalAlignment="Right" Text="{Binding SomeJuornl}" />
+    </Grid>
+</UserControl>

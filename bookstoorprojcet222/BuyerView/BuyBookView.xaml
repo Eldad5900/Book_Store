@@ -1,0 +1,61 @@
+﻿<UserControl x:Class="bookstoorprojcet222.BuyerView.BuyBookView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:bookstoorprojcet222.BuyerView"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             DataContext="{Binding Source={StaticResource Locator}, Path=BuyBooks}">
+    <Grid Background="LightSteelBlue" >
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="300"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Back" Command="{Binding MyBack}" Grid.Column="0" Grid.Row="3" Width="30" Height="30" />
+        <TextBlock Text="Book" FontSize="50"></TextBlock>
+        <TextBlock Text="Jounal" Grid.Column="1"  FontSize="50"></TextBlock>
+        <TextBlock Text="Details about a book" Grid.Column="2"  FontSize="20"></TextBlock>
+        <TextBlock Text="Details about a Jounal" Grid.Column="3"  FontSize="20"></TextBlock>
+        <ListView x:Name="Blistview" Grid.Row="1" ItemsSource="{Binding AllBookStors,UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding MyBook, Mode=TwoWay}" DisplayMemberPath="Name" Background="LightSteelBlue"/>
+        <ListView x:Name="Jlistview" Grid.Row="1" Grid.Column="1" ItemsSource="{Binding AllJournalss,Mode=TwoWay}" SelectedItem="{Binding MyJounal, Mode=TwoWay}" DisplayMemberPath="Name" Background="LightSteelBlue"/>
+        <ListView  Grid.Row="1" Grid.Column="2" Background="LightSteelBlue">
+            <TextBlock Text="{Binding MyBook.Name}"/>
+            <TextBlock Text="{Binding MyBook.AuthorNames}"/>
+            <TextBlock Text="{Binding MyBook.AmountOfCopies}"/>
+            <TextBlock Text="{Binding MyBook.Summery}"/>
+            <TextBlock Text="{Binding MyBook.BookGener}"/>
+            <TextBlock Text="{Binding MyBook.Pric,StringFormat=c}" Background="LightSteelBlue"/>
+            <TextBlock Text="-"/>
+            <TextBlock Text="{Binding MyBook.Specials,StringFormat=c}"/>
+        </ListView>
+        <ListView  Grid.Row="1" Grid.Column="3" Background="LightSteelBlue">
+            <TextBlock Text="{Binding MyJounal.Name}"/>
+            <TextBlock Text="{Binding MyJounal.AmountOfCopies}"/>
+            <TextBlock Text="{Binding MyJounal.Frequency}"/>
+            <TextBlock Text="{Binding MyJounal.LstJournalGenres}"/>
+            <TextBlock Text="{Binding MyJounal.Pric,StringFormat=c}" Background="LightSteelBlue"/>
+            <TextBlock Text="-"/>
+            <TextBlock Text="{Binding MyJounal.Specials,StringFormat=c}"/>
+        </ListView>
+        <TextBlock Text="Shopping Cat" Grid.Column="4" FontSize="26"/>
+        <ListView Grid.Column="4" Grid.Row="1" ItemsSource="{Binding AllShoppingCat,UpdateSourceTrigger=PropertyChanged}" DisplayMemberPath="Name" Background="LightSteelBlue">
+        </ListView>
+        <Button Content="Add The Book To Shopping Cat" Grid.Row="3" Grid.Column="2" Command="{Binding BuyTheBook}" />
+        <Button Content="Add The Journal To Shopping Cat" Grid.Row="3" Grid.Column="3" Command="{Binding AddJournalToShoppingCat}" />
+        <Button Grid.Column="4" Grid.Row="3" Content="Buy All Shopping Cat" Command="{Binding BuyAllShoppingCat}"/>
+        <TextBox  Grid.Row="2" Grid.Column="2" Width="43" Height="32" HorizontalAlignment="Right" Text="{Binding SomeBook}" Background="LightSteelBlue"/>
+        <TextBox Grid.Row="2" Grid.Column="3" Width="43" Height="32" HorizontalAlignment="Right" Text="{Binding SomeJuornal}" Background="LightSteelBlue"/>
+        <TextBlock Text="some Books =>" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left"  VerticalAlignment="Center" />
+        <TextBlock Text="some Journal =>" Grid.Row="2" Grid.Column="3" HorizontalAlignment="Left"  VerticalAlignment="Center" />
+    </Grid>
+</UserControl>
